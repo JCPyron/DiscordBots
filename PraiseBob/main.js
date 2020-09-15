@@ -1,6 +1,6 @@
 
 var Discord = require('discord.js');
-var auth = require('./auth.json');
+var auth = require('../../BotTokens/PraiseBobAuth.json');
 
 // Initialize Discord Bot
 var bot = new Discord.Client({});
